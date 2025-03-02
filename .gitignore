@@ -1,0 +1,18 @@
+# Ignore target directory (compiled files)
+/target/
+
+# Ignore Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Ignore dependency caches
+**/node_modules/
+**/.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore test output folder
+test-output/
