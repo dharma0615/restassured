@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 
 public class BasicLoginTest {
 
-	//Dharma branch code modified
+	//Dharma branch code gitupdate
 	String url = "https://reqres.in/api/users/2";
 	String name="restAssured Update combined";
 	String qaRole="Lead";
