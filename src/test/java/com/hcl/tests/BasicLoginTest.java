@@ -16,6 +16,7 @@ public class BasicLoginTest {
 	//Comment updated
 	String url = "https://reqres.in/api/users/2";
 	String name="restAssured";
+	String qaRole="Lead";
 	int id;
 
 	@Test (priority = 0)
