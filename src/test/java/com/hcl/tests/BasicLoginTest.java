@@ -13,7 +13,9 @@ import io.restassured.response.Response;
 
 public class BasicLoginTest {
 
+	//Comment updated
 	String url = "https://reqres.in/api/users/2";
+	String name="restAssured";
 	int id;
 
 	@Test (priority = 0)
