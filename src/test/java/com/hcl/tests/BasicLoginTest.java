@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 public class BasicLoginTest {
 
 	String url = "https://reqres.in/api/users/2";
-	String name="restAssured";
+	String name="restAssured updated";
 	String qaRole="Lead";
 	int id;
 
