@@ -5,6 +5,7 @@
 .classpath
 .project
 .settings/
+.mvn
 
 # Ignore dependency caches
 **/node_modules/
