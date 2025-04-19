@@ -2,7 +2,7 @@ package com.hcl.tests;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
-import io.restassured.matcher.RestAssuredMatchers.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
@@ -22,10 +22,10 @@ public class BasicLoginTest {
 	@Test (priority = 0)
 	public void basicTest() {
 
-		Response response = RestAssured.given().auth().preemptive().basic("", "").get();
+		//Response response = RestAssured.given().auth().preemptive().basic("", "").get();
 
-		System.out.println(response.getStatusCode());
-		System.out.println(response.getBody().toString());
+		//System.out.println(response.getStatusCode());
+		//System.out.println(response.getBody().asString());
 	}
 
 	@Test (priority = 1)
